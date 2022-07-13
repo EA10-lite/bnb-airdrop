@@ -1,0 +1,106 @@
+
+.inputField {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+
+
+.form {
+    background-color: white;
+    box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.2);
+    padding:32px;
+}
+.formTitle {
+    margin-bottom: 32px;
+    text-align: center;
+}
+.form label {
+    margin-bottom: 12px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.input {
+    height: 53px;
+    border-radius: 30px;
+    border:none;
+    outline: none;
+    padding:0 24px;
+    font-size: 16px;
+    font-family: inherit;
+    font-weight: 600;
+    background-color: #f4f6f6;
+    box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.2);
+}
+
+.inputContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.inputContainer .input {
+    flex-grow: 1;
+    margin-right: 16px;
+}
+.inputContainer div {
+    width: 153px;
+    height:53px;
+    border-radius: 30px;
+    border: none;
+    outline:none;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: inherit;
+    box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f6f6;
+    cursor: pointer;
+}
+
+/* lists */
+.lists {
+    margin-top: 16px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.list {
+    background-color: #f4f6f6;
+    padding:6px 12px;
+    border-radius: 20px;
+    margin-right: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    box-shadow: 0px 1px 2px 1px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list span {
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 6px;
+}
+.icon {
+    margin-left: 6px;
+}
+.submitArea {
+    text-align: right;
+    margin-top: 32px;
+}
+.submitBtn {
+    width: 127px;
+    height:42px;
+    border-radius: 20px;
+    background-color: #2c3c90;
+    color:white;
+    border:none;
+    outline:none;
+    box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.2);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: inherit;
+    cursor: pointer;
+}
